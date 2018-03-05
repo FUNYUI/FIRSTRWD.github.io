@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <title>MEOW MEOW CAT</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  <script  type="text/javascript">
+        $(document).ready(function(){
+            $("#hm").click(function() {
+                $("#page1").hide();
+                $("#page2").hide();
+                $("#page3").hide(); 
+                $("#home").show();
+            });
+        
+            $("#p1").click(function() {
+                $("#page1").show();
+                $("#page2").hide();
+                $("#page3").hide(); 
+                $("#home").hide();
+            });
+        
+            $("#p2").click(function() {
+                $("#page2").show();
+                $("#page1").hide();
+                $("#page3").hide();
+                $("#home").hide();
+            });
+            
+            $("#p3").click(function() {
+                $("#page3").show();
+                $("#page1").hide();
+                $("#page2").hide();
+                $("#home").hide();
+            }); 
+        }); 
+    </script>
+  </head>
+  <body onload="hideall()">
+      <script>
+        function hideall(){
+            $("#page1").hide();
+            $("#page2").hide();
+            $("#page3").hide(); 
+            $("#home").show();        
+        }
+    </script>
+      
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="https://goo.gl/3nbwsA">MEOW MEOW CAT</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a id="hm" class="nav-link" href="#">Home <span class="sr-only">(current)</span></a></li>
+        <li class="dropdown">
+          <a  class="dropdown-toggle" data-toggle="dropdown" href="#">裡面沒東西 但我想留著 <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Page 1-1</a></li>
+          </ul>
+        </li>
+        <li><a id="p1"  class="nav-link" href="#">貓咪愛我</a></li>
+        <li><a id="p2" class="nav-link" href="#">我愛貓咪</a></li>
+        <li><a id="p3" class="nav-link" href="#">ABOUT ME</a></li>
+      </ul> 
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+      
+    
+  
+    <div id="home">
+        <h1> Home </h1>
+        <div style="height: 520px padding: 25px;">
+    <div style="max-width: 100%; margin:auto; max-height: 480px; overflow: hidden;">
+        <div style="overflow: hidden;">
+            <img src="media/BCAT.jpg" style="width: 100%; position: relative; ">
+            <h1 style="position: absolute; top: 300px; left:80px; color: azure; font-family: fantasy; font-size: 86px;" >CAT PARTY</h1>
+        </div>
+        
+        
+    </div>
+    </div>
+    <div style="background-color: #C0C0C0">
+    <div class="container" style="background-color: white; padding-top: 25px; padding-bottom: 25px; ">
+        <div class="row" style="padding: 35px;">
+            <div class="col-md-4">
+                <div style="max-width: 80%; margin: auto; padding: 25px 0px;"><img src="media/cat1.jpg" style="max-width: 100%;">
+                </div>
+                <h1 style="font-family: Microsoft JhengHei; font-size: 50px; font-weight:bold;" >貓</h1>
+                <p>在現代漢語中多稱貓咪，為小型貓科動物，是為野貓中的亞種。根據遺傳學及考古學分析，人類馴養貓的紀錄可追溯至10,000年前的肥沃月灣地區，古埃及人飼養貓的紀錄可追溯至3,600年前。現在，貓成為世界上最為廣泛的寵物之一，飼養率僅次於犬。長期飼育的貓的平均壽命為12年以上（相等於人類64歲），歷史上最長壽的貓則達38歲（等於人類168歲，來自美國德州）。品種獲認證的貓會稱為純種貓，主人會以選擇繁殖的方式讓貓繁殖出他們認為趨於「完美」的品種。歷史上也存在因為偶然突變而產生，後給人類保留並加強其特質的品種。</p>
+                <button class="btn btn-default" style="position: relative;left: 50%; width: 70px; margin: 0 -35px;">View</button>
+            </div>
+            <div class="col-md-4">
+                <div style="max-width: 80%; margin: auto; padding: 25px 0px;"><img src="media/cat2.jpg" style="max-width: 110%;">
+                </div>
+                <h1 style="font-family: Microsoft JhengHei; font-size: 50px; font-weight:bold;" >馴化</h1>
+                <p>貓的馴化起源研究一般以家貓從古到今都保存著的畏寒特點，推測其祖先產於溫暖地帶。故非洲野貓及亞洲野貓有極大可能為家貓直接近親。在古代人住過的洞穴中曾發現貓骨頭，古代人可能是吃貓果腹或馴化及飼養貓以控制有害動物如鼠。</p>
+                <button class="btn btn-default" style="position: relative;left: 50%; width: 70px; margin: 0 -35px;">View</button>
+            </div>
+            <div class="col-md-4">
+                <div style="max-width: 80%; margin: auto; padding: 25px 0px;"><img src="media/cat3.jpg" style="max-width: 100%;">
+                </div>
+                <h1 style="font-family: Microsoft JhengHei; font-size: 50px; font-weight:bold;" >繁殖</h1>
+                <p>貓是一種胎生動物。在發情期（主要是冬末至夏初，但許多貓可以長年發情），公貓到處撒尿，而母貓在半夜狂吼亂叫，民間俗稱此為「鬧貓」或「貓叫春」，即貓的發情。通常經由結紮手術可解決或大幅減輕此問題（第一次發情前結紮效果較佳）。也可使用貓薄荷能使貓產生「性反應」的特性，讓貓的需求能得到抒發，減少公貓到處撒尿作記號的次數。</p>
+                <p>一般認為，貓的發情期是冬末至夏初，也有少部分沒有非常絕對的時間。在此期間，沒有懷孕的母貓每隔14～21天發情一次，時間持續3～6天，其中要求交配的時間大約連續2、3天。大部分貓的懷孕期是在63天，幼貓會在6至7週斷奶，在10至15週後性徵會發育成熟，雌貓一次會生産多胎，而雌貓的子宮也有4個子房。</p>
+                <button class="btn btn-default" style="position: relative;left: 50%; width: 70px; margin: 0 -35px;">View</button>
+            </div>
+        </div>
+        <hr>
+        <div class="row" style="padding: 80px 0px;">
+            <div class="col-md-6">
+                <div>
+                    <img src="media/cat4.jpg" style="max-width: 100%">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div style="padding-top: 30px;">
+                <h1 style="font-family: Microsoft JhengHei; font-size: 50px; font-weight:bold;" >飲食</h1>
+                <p>貓擁有發達的犬齒與短消化道，是典型的肉食性動物。牙床兩側的前臼齒與臼齒能像剪子般高效地剪肉。當犬科動物進化出此機制時，貓科動物已發展得相當進步。與其他食肉動物不同，野生的貓幾乎不吃任何植物（只由獵物的胃腸內攝取少量植物）。然而，由於從前在野外求生的本能使然，貓若身體不舒服、胃部累積過多毛球時，會本能地尋覓青草食用。貓通常啃食某些草的葉尖，達到催吐腹中毛球及減輕身體不適的目的。貓難以利用、消化、吸收植物成分來合成必要的胺基酸，故此貓飼料只含有少量植物性成分。在食物份量方面，貓少量多餐。貓喜捕食鼠類，有時亦食蛙、蛇等。挑食者。貓靈敏的嗅覺器官對某些食物相當敏感，貓藉此抵制不合適的食物。當貓皺起嘴巴，放低下巴，用舌頭輕舔食物時，這就表示它正在嗅食物。狗與馬也會做這種動作。另外，貓的舌頭對溫度比人類敏感，以至於日本也有「貓舌」一說，因為貓很怕燙（但是現在知道，不是貓的舌頭敏感而是人類的舌頭對溫度太鈍）。儘管貓有可能是出於好奇，把人類的食物給貓吃還是有害貓的健康。</p>
+                <button class="btn btn-default" style="position: relative;left: 50%; width: 70px; margin: 0 -35px;">View</button>
+                </div>
+            </div>
+
+        </div>
+        <hr>
+        <div class="row" style="padding: 80px 0px;">
+            <div class="col-md-6">
+                <div style="padding-top: 30px;">
+                    <h1 style="font-family: Microsoft JhengHei; font-size: 50px; font-weight:bold;" >貓迷協會</h1>
+                    <p>在現代，幾乎每個地方都有不同的貓協運作，除了上述的CFA、GCCF，美國本土最大的愛貓協會（American Cat Fanciers Association, ACFA）、國際貓協會（The International Cat Association, TICA）、加拿大貓協會（Canadian Cat Association, CCA）、歐洲貓協聯盟（FIFe）及澳洲的維多利亞貓隻管理委員會（The Feline Control Council of Victoria, FCCV）等，也是規模不小的貓協會。</p>
+                <button class="btn btn-default" style="position: relative;left: 50%; width: 70px; margin: 0 -35px; margin-bottom: 15px">View</button>
+                </div>
+               
+            </div>
+            <div class="col-md-6">
+               <div>
+                    <img src="media/cat5.jpg" style="max-width: 100%">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+      </div>
+
+
+
+    <div id="page1">
+        
+        <div style="height: 520px padding: 25px;">
+    <div style="max-width: 100%; margin:auto; max-height: 480px; overflow: hidden;">
+        <div style="overflow: hidden;">
+            <img src="CLM/cat1.jpg" style="width: 100%; position: relative; ">
+            <h1 style="position: absolute; top: 300px; left:80px; color: azure; font-family: fantasy; font-size: 86px;" >Siamese cat</h1>
+        </div>
+        
+        
+    </div>
+    </div>
+    <div style="background-color: #838DFF">
+    <div class="container" style="background-color: white; padding-top: 25px; padding-bottom: 25px; ">
+        <div class="row" style="padding: 35px;">
+            <div class="col-md-6">
+                <div style="max-width: 80%; margin: auto; padding: 25px 0px;"><img src="CLM/cat2.jpg" style="max-width: 100%;">
+                </div>
+                <h1 style="font-family: Microsoft JhengHei; font-size: 50px; font-weight:bold;" >暹羅貓</h1>
+                <p>暹羅貓是很早被承認的東方短毛貓品種之一。這個品種的由來尚未確定，相信是來自東南亞。據稱是源自暹羅（今泰國）寺廟裏飼養的貓。在泰國裏被稱Wichien-maat（วิเชียรมาศ），即「月亮鑽石」的意思。在二十世紀開始暹羅貓已成為歐美受歡迎的貓品種之一</p>
+                
+            </div>
+            <div class="col-md-6">
+                <div style="max-width: 80%; margin: auto; padding: 25px 0px;"><img src="CLM/cat3.jpg" style="max-width: 110%;">
+                </div>
+                <h1 style="font-family: Microsoft JhengHei; font-size: 50px; font-weight:bold;" >貓界變色龍</h1>
+                <p>牠們的毛色隨著年齡、體溫、環境溫度而變化，越冷越黑，越高溫越白。</p>
+                
+            </div>
+            
+        </div>
+        <hr>
+        <div class="row" style="padding: 80px 0px;">
+            <div class="col-md-6">
+                <div>
+                    <img src="CLM/cat4.jpg" style="max-width: 100%">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div style="padding-top: 30px;">
+                <h1 style="font-family: Microsoft JhengHei; font-size: 50px; font-weight:bold;" >遺傳學</h1>
+                <p>羅貓體內負責生產色素的「酶」含有一個突變，這個突變能導致這種酶在高溫時變得不穩定，並失去其功能。因此在貓皮膚溫度較低處（如四肢、尾部、面部等）的毛色較深，而體溫較高處的毛色則為淺色。</p>
+    
+                </div>
+            </div>
+
+        </div>
+        <hr>
+        <div class="row" style="padding: 80px 0px;">
+            <div class="col-md-6">
+                <div style="padding-top: 30px;">
+                    <h1 style="font-family: Microsoft JhengHei; font-size: 50px; font-weight:bold;" >烤焦貓</h1>
+                    <p>因此不少剛從貓媽媽體內出生的小暹羅，通常毛色較白，隨著成長和體溫變化，開始出現深色的色塊。天冷、低溫的環境，暹羅貓的毛髮色素沉澱，深色部份較多。所以在高緯度與在低緯度區域，暹羅貓的花色也會有微妙的不同。飼主也可以觀察牠的毛色有沒有轉淡，藉此推測牠是不是發燒了。</p>
+                <button class="btn btn-default" style="position: relative;left: 50%; width: 70px; margin: 0 -35px; margin-bottom: 15px">MEOW</button>
+                </div>
+               
+            </div>
+            <div class="col-md-6">
+               <div>
+                    <img src="CLM/cat-5.jpg" style="max-width: 100%">
+                </div>
+            </div>
+        </div>
+        
+
+    </div>
+</div>
+</div>
+
+
+    <div id="page2">
+        
+        <div style="height: 520px padding: 25px;">
+    <div style="max-width: 100%; margin:auto; max-height: 480px; overflow: hidden;">
+        <div style="overflow: hidden;">
+            <img src="BLACK/7239707848895.jpg" style="width: 100%; position: relative; ">
+            <h1 style="position: absolute; top: 300px; left:80px; color: azure; font-family: fantasy; font-size: 86px;" >Black Tan</h1>
+        </div>
+        
+        
+    </div>
+    </div>
+    <div style="background-color: #000000">
+    <div class="container" style="background-color: white; padding-top: 25px; padding-bottom: 25px; ">
+        <div class="row" style="padding: 35px;">
+            <div class="col-md-6">
+                <div style="max-width: 80%; margin: auto; padding: 25px 0px;"><img src="BLACK/IMG_1151.JPG" style="max-width: 100%;">
+                </div>
+                <h1 style="font-family: Microsoft JhengHei; font-size: 50px; font-weight:bold;" >外面的野貓</h1>
+                <p>黑炭一開始只是偶爾會經過這裡的野貓，黑黑又小小的。</p>
+                
+            </div>
+            <div class="col-md-6">
+                <div style="max-width: 80%; margin: auto; padding: 25px 0px;"><img src="BLACK/IMG_1315.JPG" style="max-width: 110%;">
+                </div>
+                <h1 style="font-family: Microsoft JhengHei; font-size: 50px; font-weight:bold;" >小黑貓</h1>
+                <p>自己對取名真的不是很擅長，但「黑炭」聽起來就是很適合他，所以就叫他黑炭了。</p>
+                
+            </div>
+            
+        </div>
+        <hr>
+        <div class="row" style="padding: 80px 0px;">
+            <div class="col-md-6">
+                <div>
+                    <img src="BLACK/IMG_2905.JPG" style="max-width: 100%">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div style="padding-top: 30px;">
+                <h1 style="font-family: Microsoft JhengHei; font-size: 50px; font-weight:bold;" >紳士黑炭</h1>
+                <p>黑炭大概是我看過最沒個性，最不會打架，又很乖，很塞奶的野貓了。</p>
+    
+                </div>
+            </div>
+
+        </div>
+        <hr>
+        <div class="row" style="padding: 80px 0px;">
+            <div class="col-md-6">
+                <div style="padding-top: 30px;">
+                    <h1 style="font-family: Microsoft JhengHei; font-size: 50px; font-weight:bold;" >臭黑貓</h1>
+                    <p>雖然還不能讓你進家們，但我想總有一天你會融化的老媽心的，但你最近也真的是有點白目，臭貓。</p>
+                <button class="btn btn-default" style="position: relative;left: 50%; width: 70px; margin: 0 -35px; margin-bottom: 15px">MEOW</button>
+                </div>
+               
+            </div>
+            <div class="col-md-6">
+               <div>
+                    <img src="BLACK/7239707822164.jpg" style="max-width: 100%">
+                </div>
+            </div>
+        </div>
+        
+
+    </div>
+</div>
+      
+    </div>
+
+    <div id="page3">
+        
+        <div style="height: 520px padding: 25px;">
+    <div style="max-width: 100%; margin:auto; max-height: 480px; overflow: hidden;">
+        <div style="overflow: hidden;">
+            <img src="ME/1.jpg" style="width: 100%; position: relative; ">
+            <h1 style="position: absolute; top: 300px; left:80px; color: azure; font-family: fantasy; font-size: 86px;" >MEMEME</h1>
+        </div>
+        
+        
+    </div>
+    </div>
+    <div style="background-color: #E0FFFF">
+    <div class="container" style="background-color: white; padding-top: 25px; padding-bottom: 25px; ">
+        
+        <div class="row" style="padding: 80px 0px;">
+            <div class="col-md-6">
+                <div>
+                    <img src="ME/IMG_3248.JPG" style="max-width: 50%">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div style="padding-top: 30px;">
+                <h1 style="font-family: Microsoft JhengHei; font-size: 50px; font-weight:bold;" >FUN YUI</h1>
+                <p>未來一定要養一隻黑貓和暹羅貓。</p>
+    
+                </div>
+            </div>
+
+        </div>  
+
+    </div>
+</div>
+    </div>
+        
+      <div>
+      <footer style="background-color: #625B57;text-align: center;"><p style="margin: 0px">&copy; 2017/12/04 FUNFUN YUI</p><i style="font-size:24px;color:#FFE4E1" class="fa">&#xf082;</i><i style="font-size:24px;color:#FFE4E1" class="fa">&#xf1e8;</i><i style="font-size:24px;color:#FFE4E1" class="fa">&#xf1f0;</i><i style="font-size:24px;color:#FFE4E1" class="fa">&#xf099;</i></footer>
+        </div>
+      
+      
+      
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  </body>
+</html>
